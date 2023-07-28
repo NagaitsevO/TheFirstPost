@@ -1,11 +1,11 @@
-package ru.netology.nmedia
+package ru.netology.nmedia.viewmodel
 
-import ru.netology.nmedia.dto.Post
+import ru.netology.nmedia.model.Post
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.widget.TextView
+import ru.netology.nmedia.R
 import ru.netology.nmedia.databinding.ActivityMainBinding
+import ru.netology.nmedia.viewmodel.toCutTheNumber
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

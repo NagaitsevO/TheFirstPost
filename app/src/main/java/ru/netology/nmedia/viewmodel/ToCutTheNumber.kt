@@ -1,4 +1,4 @@
-package ru.netology.nmedia
+package ru.netology.nmedia.viewmodel
 
 fun toCutTheNumber (incomingNumber: Int): String {
     var numberOut: String = ""
